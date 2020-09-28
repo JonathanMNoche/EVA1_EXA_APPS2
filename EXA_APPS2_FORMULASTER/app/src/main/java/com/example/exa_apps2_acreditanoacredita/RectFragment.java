@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -82,7 +83,9 @@ public class RectFragment extends Fragment {
        txtBase = frameLayout.findViewById(R.id.txtBase);
        txtAltura = frameLayout.findViewById(R.id.txtAltura);
        txtVwResul2 = frameLayout.findViewById(R.id.txtVwResul2);
+        Log.wtf("Param3", mParam3);
        switch (Integer.parseInt(mParam3)) {
+
            case 1:
                lblBase.setText(mParam1);
                lblAltura.setText(mParam2);
@@ -96,7 +99,7 @@ public class RectFragment extends Fragment {
                        txtVwResul2.setText("Resultado: " + res);
                    }
                });
-
+                break;
            case 2:
                lblBase.setText(mParam1);
                lblAltura.setText(mParam2);
@@ -110,6 +113,7 @@ public class RectFragment extends Fragment {
                     txtVwResul2.setText("Resultado: " + res);
                    }
                });
+               break;
            case 3:
                lblBase.setText(mParam1);
                lblAltura.setText(mParam2);
@@ -123,7 +127,7 @@ public class RectFragment extends Fragment {
                        txtVwResul2.setText("Resultado: " + res);
                    }
                });
-
+               break;
            case 4:
 
                lblBase.setText(mParam1);
@@ -138,6 +142,7 @@ public class RectFragment extends Fragment {
                        txtVwResul2.setText("Resultado: " + res);
                    }
                });
+               break;
            case 5:
                lblBase.setText(mParam1);
                lblAltura.setText(mParam2);
@@ -151,7 +156,7 @@ public class RectFragment extends Fragment {
                        txtVwResul2.setText("Resultado: " + res);
                    }
                });
-
+               break;
            case 6:
                lblBase.setText(mParam1);
                lblAltura.setText(mParam2);
@@ -165,7 +170,7 @@ public class RectFragment extends Fragment {
                        txtVwResul2.setText("Resultado: " + res);
                    }
                });
-
+               break;
        }
         return frameLayout;
     }

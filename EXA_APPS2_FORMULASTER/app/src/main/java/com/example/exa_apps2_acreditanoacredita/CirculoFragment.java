@@ -83,7 +83,7 @@ public class CirculoFragment extends Fragment {
                         txtVwResul.setText("Resultado: " + res);
                     }
                 });
-
+                break;
             case 8:
                 btnCalcular.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -94,7 +94,7 @@ public class CirculoFragment extends Fragment {
                         txtVwResul.setText("Resultado: " + res);
                     }
                 });
-
+                break;
             case 9:
                 btnCalcular.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -104,6 +104,7 @@ public class CirculoFragment extends Fragment {
                         txtVwResul.setText("Resultado: " + res);
                     }
                 });
+                break;
         }
 
 
