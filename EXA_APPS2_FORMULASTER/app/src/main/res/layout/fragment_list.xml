@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListFragment">
+
+    <RadioGroup
+        android:id="@+id/radioGp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rbCirculo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Circulo" />
+
+        <RadioButton
+            android:id="@+id/rbCuadrado"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Cuadrado" />
+
+        <RadioButton
+            android:id="@+id/rbRectangulo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Rectangulo" />
+
+        <RadioButton
+            android:id="@+id/rbTriangulo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Triangulo" />
+
+        <RadioButton
+            android:id="@+id/rbRombo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Rombo" />
+
+        <RadioButton
+            android:id="@+id/rbEsfera"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Esfera" />
+
+        <RadioButton
+            android:id="@+id/rbCilindro"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Cilindro" />
+
+        <RadioButton
+            android:id="@+id/rbRomboide"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Romboide" />
+
+        <RadioButton
+            android:id="@+id/rbCono"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Cono" />
+
+    </RadioGroup>
+</FrameLayout>
